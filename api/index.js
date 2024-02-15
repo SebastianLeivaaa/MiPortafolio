@@ -1,5 +1,5 @@
 import express from "express";
-import sendTestEmail  from "../src/utils/mailer.js";
+import sendTestEmail  from "../src/utils/mailer.js"
 import cors from 'cors';
 
 
