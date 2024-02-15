@@ -4,7 +4,7 @@ import { FaCogs } from "react-icons/fa";
 import { FaUserFriends } from "react-icons/fa";
 import { FaGlobeAmericas } from "react-icons/fa";
 import iconHtml from "../assets/img/technologies/iconHtml.png";
-import iconJavaScript from "../assets/img/technologies/iconJavascript.png";
+import iconJavaScript from "../assets/img/technologies/iconJavaScript.png";
 import iconJava from "../assets/img/technologies/iconJava.png";
 import iconGit from "../assets/img/technologies/iconGit.png";
 import iconCss from "../assets/img/technologies/iconCss.png";
