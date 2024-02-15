@@ -3,7 +3,7 @@ import { NavBar } from "../components/navBar";
 import { DetailsProjects } from "../components/detailsProjects";
 import frontPageClinicaWeb from "../assets/img/Prueba-Tecnica.png";
 import iconHtml from "../assets/img/technologies/iconHtml.png";
-import iconJavaScript from "../assets/img/technologies/iconJavascript.png";
+import iconJavaScript from "../assets/img/technologies/iconJavaScript.png";
 import iconDart from "../assets/img/technologies/iconDart.png";
 import iconEjs from "../assets/img/technologies/iconEjs.png";
 import iconFirebase from "../assets/img/technologies/iconFirebase.png";
