@@ -1,10 +1,12 @@
 //create express server
 import express from "express";
 import sendTestEmail  from "./utils/mailer.js";
+import cors from 'cors';
 
 
 const app = express();
 
+app.use(cors());
 const SENDER_EMAIL_ID = "sebastianleiva010@gmail.com";
 
 app.post("/send-email", async (req, res) => {
@@ -23,3 +25,4 @@ app.post("/send-email", async (req, res) => {
     res.send(error);
   }
 });
+
