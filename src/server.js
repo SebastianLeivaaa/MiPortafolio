@@ -27,7 +27,8 @@ app.post("/send-email", async (req, res) => {
   }
 });
 
-export default app;
 /*app.listen(port, () => {
   console.log(`Server listening on port ${port}`);
 });*/
+
+export default app;
