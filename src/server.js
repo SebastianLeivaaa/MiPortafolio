@@ -13,6 +13,7 @@ const SENDER_EMAIL_ID = "sebastianleiva010@gmail.com";
 app.post("/send-email", async (req, res) => {
   
   const {namePerson, email, phone, subject, message} = req.body;
+  console.log('estoy aca ')
 
   try {
     if (SENDER_EMAIL_ID === "EMAIL_ID") {
@@ -21,8 +22,10 @@ app.post("/send-email", async (req, res) => {
       );
     }
     const info = await sendTestEmail(namePerson, email, phone, subject, message, SENDER_EMAIL_ID);
+    console.log(info);
     res.send(info);
   } catch (error) {
+    console.log(error);
     res.send(error);
   }
 });
