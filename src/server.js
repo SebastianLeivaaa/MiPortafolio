@@ -10,7 +10,7 @@ app.use(express.json());
 app.use(cors());
 const SENDER_EMAIL_ID = "sebastianleiva010@gmail.com";
 
-app.post("/send-email", async (req, res) => {
+app.post("https://mi-portafolio-asby.vercel.app/send-email", async (req, res) => {
   
   const {namePerson, email, phone, subject, message} = req.body;
   console.log('estoy aca ')
