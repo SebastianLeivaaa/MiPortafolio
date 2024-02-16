@@ -6,7 +6,7 @@ import cors from 'cors';
 
 const app = express();
 app.use(express.json());
-//const port = 3001;
+const port = 3001;
 app.use(cors());
 const SENDER_EMAIL_ID = "sebastianleiva010@gmail.com";
 
@@ -27,9 +27,8 @@ app.post("/send-email", async (req, res) => {
   }
 });
 
-app.listen();
-/*app.listen(port, () => {
+app.listen(port, () => {
   console.log(`Server listening on port ${port}`);
-});*/
+});
 
 export default app;
