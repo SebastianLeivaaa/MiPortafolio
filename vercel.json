@@ -1,7 +1,5 @@
 {
-  "version": 2,
-  "routes": [
-    { "src": "/send-email", "dest": "./src/server.js" },
-    { "src": "/(.*)", "dest": "index.html" }
-  ]
+    "rewrites": [{
+      "source": "/(.*)", "destination": "/src/server.js"
+    }]
 }
