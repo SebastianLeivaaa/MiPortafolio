@@ -80,7 +80,7 @@ export const Contact = () => {
           console.log('Correo electrónico enviado con éxito');
         } else {
           setIsSubmitted(false);
-          console.error('Error al enviar el correo electrónico');
+          console.error('Error al enviar el correo electrónico', response);
         }
       } catch (error) {
         setIsSubmitted(false);
