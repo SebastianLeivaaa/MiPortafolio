@@ -1,7 +1,5 @@
 {
-    "routes": [
-      { "handle": "filesystem" },
-      { "src": "/send-email", "dest": "src/server.js" }
-    ]
-  }
-  
+    "rewrites": [{
+      "source": "/(.*)", "destination": "/src/server.js"
+    }]
+}
