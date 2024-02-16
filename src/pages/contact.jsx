@@ -67,7 +67,7 @@ export const Contact = () => {
 
     if(Object.keys(newErrors).length === 0){
       try {
-        const response = await fetch('/send-email', {
+        const response = await fetch('https://mi-portafolio-asby.vercel.app/send-email', {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
