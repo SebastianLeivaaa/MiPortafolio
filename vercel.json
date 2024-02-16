@@ -1,0 +1,6 @@
+{
+    "rewrites": [
+      { "source": "/send-email", "destination": "/src/server.js" }
+    ]
+  }
+  
