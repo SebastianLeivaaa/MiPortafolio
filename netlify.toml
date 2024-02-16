@@ -1,6 +1,6 @@
 [build]
 command = "npm run build"
-publish = "public" # O el directorio donde se encuentra tu aplicación compilada
+publish = "dist" # O el directorio donde se encuentra tu aplicación compilada
 
 [[redirects]]
 from = "/*"
