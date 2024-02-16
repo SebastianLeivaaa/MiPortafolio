@@ -67,7 +67,7 @@ export const Contact = () => {
 
     if(Object.keys(newErrors).length === 0){
       try {
-        const response = await fetch('/src/send-email', {
+        const response = await fetch('/send-email', {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
