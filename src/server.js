@@ -10,7 +10,7 @@ const app = express();
 app.use(cors());
 const SENDER_EMAIL_ID = "sebastianleiva010@gmail.com";
 
-app.get("/send-email", async (req, res) => {
+app.post("/send-email", async (req, res) => {
   
   const {namePerson, email, phone, subject, message} = req.body;
 
@@ -27,7 +27,7 @@ app.get("/send-email", async (req, res) => {
   }
 });
 
-module.exports = app;
+export default app;
 /*app.listen(port, () => {
   console.log(`Server listening on port ${port}`);
 });*/
