@@ -1,5 +1,6 @@
 {
-    "rewrites": [{
-      "source": "/(.*)", "destination": "/src/server.js"
-    }]
+  "rewrites": [
+    { "source": "/send-email", "destination": "/src/server.js" },
+    { "source": "/(.*)", "destination": "index.html" }
+  ]
 }
