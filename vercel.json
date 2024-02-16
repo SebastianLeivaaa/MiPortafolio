@@ -1,6 +1,19 @@
 {
-    "rewrites": [
-      { "source": "/send-email", "destination": "/src/server.js" }
+    "version": 2,
+    "builds": [
+      {
+        "src": "src/server.js",
+        "use": "@vercel/node"
+      },
+      {
+        "src": "src/**/*.js",
+        "use": "@vercel/static"
+      }
+    ],
+    "routes": [
+      { "handle": "filesystem" },
+      { "src": "/send-email", "dest": "src/server.js" },
+      { "src": "/(.*)", "dest": "/index.html" }
     ]
   }
   
