@@ -1,18 +1,5 @@
 {
-    "version": 2,
-    "builds": [
-      {
-        "src": "src/server.js",
-        "use": "@vercel/node"
-      },
-      {
-        "src": "src/**/*.jsx",
-        "use": "@vercel/static"
-      }
-    ],
-    "routes": [
-      { "handle": "filesystem" },
-      { "src": "/send-email", "dest": "src/server.js" }
-    ]
-  }
-  
+  "rewrites": [
+    { "source": "/send-email", "destination": "/src/server.js" }
+  ]
+}
