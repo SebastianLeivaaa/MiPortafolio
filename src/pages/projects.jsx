@@ -3,13 +3,11 @@ import { NavBar } from "../components/navBar";
 import { DetailsProjects } from "../components/detailsProjects";
 import frontPageClinicaWeb from "../assets/img/projects/Clinica_Ulagos_web.png";
 import frontPageClinicaApp from "../assets/img/projects/Clinica_Ulagos_App.png";
-import frontPageRevisionesTecnicasWeb from "../assets/img/projects/Revisiones_Tecnicas_Web.png";
+import frontPageRevisionesTecnicasWeb from "../assets/img/projects/Revisiones_Tecnicas_web.png";
 import frontPageRevisionesTecnicasApp from "../assets/img/projects/Revisiones_Tecnicas_App.png";
-import iconHtml from "../assets/img/technologies/iconHtml.png";
 import iconJavaScript from "../assets/img/technologies/iconJavaScript.png";
 import iconMySQL from "../assets/img/technologies/iconMySQL.png";
 import iconDart from "../assets/img/technologies/iconDart.png";
-import iconEjs from "../assets/img/technologies/iconEjs.png";
 import iconFirebase from "../assets/img/technologies/iconFirebase.png";
 import iconReact from "../assets/img/technologies/iconReact.png";
 
