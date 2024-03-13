@@ -77,7 +77,6 @@ export const Contact = () => {
   
         if (response.ok) {
           setIsSubmitted(true);
-          console.log('Correo electrónico enviado con éxito');
         } else {
           setIsSubmitted(false);
           console.error('Error al enviar el correo electrónico', response);
@@ -162,8 +161,8 @@ export const Contact = () => {
             <div className="flex w-[100%] justify-center">
               {!isLoading ? (
                 <button type="submit" className="dark:bg-black-rock-100 text-snowy-mint-700 dark:text-black-rock-700 border-snowy-mint-800 dark:border-black-rock-500 bg-snowy-mint-200 border-[1px] hover:bg-snowy-mint-900 dark:placeholder-black-rock-900 dark:hover:bg-black-rock-500 hover:text-white dark:hover:text-white w-[100%] font-bold py-2.5 px-4 rounded-lg focus:outline-none focus:shadow-outline max-md:text-sm">
-                Enviar Mensaje
-              </button>
+                  Enviar Mensaje
+                </button>
               ) : (
                 <ClipLoader color='#666666'/>
               )}

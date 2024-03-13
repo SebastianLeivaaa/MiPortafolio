@@ -1,6 +1,6 @@
 import React from "react";
 import MyCV from "../assets/downloads/CV-Sebastian_Leiva.pdf";
-import imgProfile from '../assets/img/profile.jpg';
+import imgProfile from '../assets/img/profile.png';
 import { IoLocationSharp } from "react-icons/io5";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
@@ -18,7 +18,7 @@ export const Home = () => {
             <section id="home" className="w-[100%] py-[5%] h-screen items-center gap-x-10 max-2xl:px-28 max-2xl:py-16 max-lg:px-8 max-lg:h-auto">
                 <div className="h-[100%] flex flex-row gap-x-10 items-center max-lg:flex-col gap-y-4 max-lg:mt-10 max-lg:py-12 max-md:py-0">
                     <div className="flex items-end justify-center w-[35%] max-md:w-[75%] max-lg:w-[50%] h-auto">
-                        <img src={imgProfile} className="object-cover w-full h-full max-lg:w-[100%] max-lg:h-[100%] rounded-[10%] max-lg:rounded-[100%]"></img>
+                        <img src={imgProfile} className="object-scale-down w-[500px] brightness-125 opacity-80 h-[500px] max-lg:w-[300px] max-lg:h-[300px] rounded-[10%] max-lg:rounded-[100%]"></img>
                     </div>
                     <div className="flex flex-col w-[65%] gap-y-6 max-lg:w-[100%] max-lg:gap-y-0.5 h-auto">
                         <div className="max-lg:flex max-lg:flex-col max-lg:items-center">

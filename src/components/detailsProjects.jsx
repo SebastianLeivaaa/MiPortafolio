@@ -2,26 +2,48 @@ import React from "react";
 import { HiMiniArrowTopRightOnSquare } from "react-icons/hi2";
 import { FaGithub } from "react-icons/fa";
 
-export const DetailsProjects = ({frontPage, alt, title, description, technologies}) => {
+export const DetailsProjects = ({frontPage, alt, title, description, technologies, repository, preview}) => {
     return(
-        <article className="flex flex-row text-textLight dark:text-white gap-x-2 rounded-xl max-lg:flex-col max-lg:gap-y-6 max-lg:p-20  max-lg:dark:bg-black-rock-950 max-lg:bg-snowy-mint-300 max-lg:dark:contrast-[95%] max-md:dark:contrast-[100%] max-md:p-0 max-md:contrast-[100%] max-md:bg-snowy-mint-100">
+        <article className="flex flex-row shadow-gray-900 shadow-3xl text-textLight dark:text-white gap-x-2 rounded-xl max-lg:flex-col max-lg:gap-y-6 max-lg:p-20  max-lg:dark:bg-black-rock-950 max-lg:bg-snowy-mint-300 max-lg:dark:contrast-[95%] max-md:dark:contrast-[100%] max-md:p-0 max-md:contrast-[100%] max-md:bg-snowy-mint-100">
             <div className="flex items-center overflow-hidden w-[35%] h-auto rounded-xl max-lg:w-[100%] max-lg:justify-center">
-                <img src={frontPage} alt={alt} className="object-cover w-full h-full max-md:w-[100%] max-md:h-[100%] max-lg:rounded-xl "></img>
+                <img src={frontPage} alt={alt} className="object-cover w-full h-[350px] max-md:w-[100%] max-md:h-[300px] max-lg:h-[350px] max-lg:rounded-xl" />
             </div>
             <div className="flex flex-col w-[65%] px-5 max-lg:w-[100%] max-lg:px-0">
                 <div className="flex flex-row gap-x-3 items-end relative max-lg:justify-center max-md:justify-start">
                     <h1 className="font-extrabold dark:text-black-rock-400 text-snowy-mint-900 text-4xl max-md:text-2xl">{title}</h1>
                     <div className="group relative flex items-center">
-                        <HiMiniArrowTopRightOnSquare className="text-2xl text-snowy-mint-700 hover:text-snowy-mint-900 dark:hover:text-black-rock-400 dark:text-grey"/>
-                        <span className="hidden absolute bg-primaryDark contrast-75 text-white p-2 rounded shadow-md whitespace-nowrap -translate-y-full transform -top-3 left-1/2 -translate-x-1/2 group-hover:block">
-                            Ver página web
-                        </span>
+                        {!preview ? (
+                            <div>
+                                <HiMiniArrowTopRightOnSquare className="text-2xl text-snowy-mint-700 hover:text-snowy-mint-900 dark:hover:text-black-rock-400 dark:text-grey"/>
+                                <span className="hidden absolute bg-primaryDark contrast-75 text-white p-2 rounded shadow-md whitespace-nowrap -translate-y-full transform -top-3 left-1/2 -translate-x-1/2 group-hover:block">
+                                    No disponible
+                                </span>
+                            </div>
+                        ) : (
+                            <a href={preview} target="_blank" className="flex flex-row gap-x-2">
+                                <HiMiniArrowTopRightOnSquare className="text-2xl text-snowy-mint-700 hover:text-snowy-mint-900 dark:hover:text-black-rock-400 dark:text-grey"/>
+                                <span className="hidden absolute bg-primaryDark contrast-75 text-white p-2 rounded shadow-md whitespace-nowrap -translate-y-full transform -top-3 left-1/2 -translate-x-1/2 group-hover:block">
+                                    Visualizar
+                                </span>
+                            </a>
+                        )}
                     </div>
                     <div className="group relative">
-                        <FaGithub className="text-2xl text-snowy-mint-700 hover:text-snowy-mint-900 dark:hover:text-black-rock-400 dark:text-grey"/>
-                        <span className="hidden absolute bg-primaryDark contrast-75 text-white p-2 rounded shadow-md whitespace-nowrap -translate-y-full transform -top-3 left-1/2 -translate-x-1/2 group-hover:block">
-                            Ver código
-                        </span>
+                        {!repository ? (
+                            <div>
+                                <FaGithub className="text-2xl text-snowy-mint-700 hover:text-snowy-mint-900 dark:hover:text-black-rock-400 dark:text-grey"/>
+                                <span className="hidden absolute bg-primaryDark contrast-75 text-white p-2 rounded shadow-md whitespace-nowrap -translate-y-full transform -top-3 left-1/2 -translate-x-1/2 group-hover:block">
+                                    No disponible 
+                                </span>
+                            </div>
+                        ) : (
+                            <a href={repository} target="_blank" className="flex flex-row gap-x-2">
+                                <FaGithub className="text-2xl text-snowy-mint-700 hover:text-snowy-mint-900 dark:hover:text-black-rock-400 dark:text-grey"/>
+                                <span className="hidden absolute bg-primaryDark contrast-75 text-white p-2 rounded shadow-md whitespace-nowrap -translate-y-full transform -top-3 left-1/2 -translate-x-1/2 group-hover:block">
+                                    Ver código
+                                </span>
+                            </a>
+                        )}
                     </div>
                 </div>
                 <p className="mt-6  dark:opacity-75 dark:text-white text-lg max-md:text-base">{description}</p>
