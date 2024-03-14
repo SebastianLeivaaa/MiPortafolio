@@ -1,0 +1,121 @@
+[
+    {
+        "frontPage": "./src/assets/img/projects/Clinica_Ulagos_web.png",
+        "alt": "ClinicaUlagosWeb",
+        "title": "Clinica Ulagos Web",
+        "description": "Desarrollo de un sistema integral de reservas para citas médicas, diseñado para facilitar la gestión tanto para clientes como para profesionales de la salud. El sistema permite a los pacientes registrarse, iniciar sesión, agendar, anular citas y acceder a su historial médico, mientras que los profesionales pueden gestionar (agregar, editar y anular) las citas.",
+        "technologies": [
+            {
+                "name": "React",
+                "logo": "./src/assets/img/technologies/iconReact.png",
+                "alt": "react"
+            },
+            {
+                "name": "JavaScript",
+                "logo": "./src/assets/img/technologies/iconJavaScript.png",
+                "alt": "javascript"
+            },
+            {
+                "name": "TailwindCSS",
+                "logo": "./src/assets/img/technologies/iconTailwind.png",
+                "alt": "tailwindCSS"
+            },
+            {
+                "name": "NodeJs",
+                "logo": "./src/assets/img/technologies/iconNodeJs.png",
+                "alt": "nodeJS"
+            },
+            {
+                "name": "PostgreSQL",
+                "logo": "./src/assets/img/technologies/iconPostgreSQL.png",
+                "alt": "postgreSQL"
+            }
+        ],
+        "repository": "https://github.com/SebastianLeivaaa/ClinicaUlagos"
+    },
+    {
+        "frontPage": "./src/assets/img/projects/Clinica_Ulagos_App.png",
+        "alt": "ClinicaUlagosApp",
+        "title": "Clinica Ulagos App",
+        "description": "Desarrollo de una aplicación móvil enfocada en facilitar a los pacientes la gestión de citas médicas. Esta aplicación, diseñada específicamente para el uso de pacientes, permite a los usuarios registrarse e iniciar sesión, así como gestionar sus sesiones de forma segura. Los pacientes tienen la capacidad de ver su historial médico, agendar nuevas citas y anular citas existentes, proporcionando una experiencia de usuario fluida y eficiente.",
+        "technologies": [
+            {
+                "name": "Dart",
+                "logo": "./src/assets/img/technologies/iconDart.png",
+                "alt": "dart"
+            },
+            {
+                "name": "Flutter",
+                "logo": "./src/assets/img/technologies/iconFlutter.png",
+                "alt": "flutter"
+            },
+            {
+                "name": "Firebase",
+                "logo": "./src/assets/img/technologies/iconFirebase.png",
+                "alt": "firebase"
+            }
+        ],
+        "repository": "https://github.com/SebastianLeivaaa/ClinicaUlagosApp"
+    },
+    {
+        "frontPage": "./src/assets/img/projects/Revisiones_Tecnicas_web.png",
+        "alt": "CheckAutoWeb",
+        "title": "CheckAuto Web",
+        "description": "Desarrollo de un sistema integral y funcional para la empresa Monte Verde IT Spa, que permite a los usuarios ingresar la patente de un vehículo para acceder instantáneamente a la información detallada del vehículo y a su historial completo de revisiones técnicas, ordenadas cronológicamente por año. Este sistema cuenta con una amplia base de datos que abarca todas las revisiones técnicas de Chile a partir del año 2015, garantizando datos exhaustivos y actualizados para una experiencia confiable y completa.",
+        "technologies": [
+            {
+                "name": "React",
+                "logo": "./src/assets/img/technologies/iconReact.png",
+                "alt": "react"
+            },
+            {
+                "name": "JavaScript",
+                "logo": "./src/assets/img/technologies/iconJavaScript.png",
+                "alt": "javascript"
+            },
+            {
+                "name": "TailwindCSS",
+                "logo": "./src/assets/img/technologies/iconTailwind.png",
+                "alt": "tailwindCSS"
+            },
+            {
+                "name": "NodeJs",
+                "logo": "./src/assets/img/technologies/iconNodeJs.png",
+                "alt": "nodeJS"
+            },
+            {
+                "name": "MySQL",
+                "logo": "./src/assets/img/technologies/iconMySQL.png",
+                "alt": "mysql"
+            }
+        ]
+    },
+    {
+        "frontPage": "./src/assets/img/projects/Revisiones_Tecnicas_App.png",
+        "alt": "CheckAutoApp",
+        "title": "CheckAuto App",
+        "description": "Desarrollo de una aplicación móvil integral y funcional para la empresa Monte Verde IT Spa, que ofrece a los usuarios la posibilidad de ingresar la patente de un vehículo para acceder instantáneamente a la información detallada del vehículo y a su historial completo de revisiones técnicas. La aplicación clasifica automáticamente las revisiones técnicas por año, proporcionando una experiencia fluida y eficiente para los usuarios. Además, esta aplicación móvil cuenta con una extensa base de datos que abarca todas las revisiones técnicas de Chile desde el año 2015, asegurando datos precisos y actualizados en todo momento.",
+        "technologies": [
+            {
+                "name": "Dart",
+                "logo": "./src/assets/img/technologies/iconDart.png",
+                "alt": "dart"
+            },
+            {
+                "name": "Flutter",
+                "logo": "./src/assets/img/technologies/iconFlutter.png",
+                "alt": "flutter"
+            },
+            {
+                "name": "MySQL",
+                "logo": "./src/assets/img/technologies/iconMySQL.png",
+                "alt": "mysql"
+            },
+            {
+                "name": "NodeJs",
+                "logo": "./src/assets/img/technologies/iconNodeJs.png",
+                "alt": "nodeJS"
+            }
+        ]
+    }
+]

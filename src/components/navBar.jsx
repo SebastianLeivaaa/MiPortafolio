@@ -10,7 +10,7 @@ import { RxCross2 } from "react-icons/rx";
 export const NavBar = () => {
 
 
-    const [darkToggle, setDarkToggle] = useState(() => localStorage.getItem('theme') === 'dark');
+    const [darkToggle, setDarkToggle] = useState(true);
     const [currentSection, setCurrentSection] = useState('home');
     const [onToggleMenu, setOnToggleMenu] = useState(false);
     const updateCurrentSection = () => {

@@ -15,6 +15,7 @@ export const Footer = () => {
                     <img src={iconTailwind} className="w-10 h-10"></img>
                 </ul>
             </li>
+            <a href="https://github.com/SebastianLeivaaa/MiPortafolio" target="_blank" className="dark:text-black-rock-300 text-snowy-mint-800 font-bold underline">Ver código</a>
             <a href="#home" className="text-snowy-mint-900 dark:text-black-rock-500 text-4xl font-black brightness-[175%] items font-sourceCodePro italic">&lt;SL&gt;</a>
         </footer>
     );

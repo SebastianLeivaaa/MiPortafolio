@@ -1,0 +1,9 @@
+[
+    {
+        "name": "Universidad de Los Lagos",
+        "description": "Ingeniería Civil en Informática",
+        "timeline": "2021 - Actualidad",
+        "logo": "./src/assets/img/Ulagos.png",
+        "alt": "Ulagos"
+    }
+]
