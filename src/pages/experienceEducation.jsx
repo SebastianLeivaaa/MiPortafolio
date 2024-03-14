@@ -1,11 +1,33 @@
 import React from "react";
+import { NavBar } from "../components/navBar";
 import { DetailsSection } from "../components/detailsSection";
+import logoMVIT from '../assets/img/MVIT-5.png';
+import logoUlagos from '../assets/img/Ulagos.png';
+import { Footer } from "../components/footer";
 import { FaBriefcase } from "react-icons/fa";
 import { HiAcademicCap } from "react-icons/hi2";
-import detailsExperience from "../utils/experienceData.json";
-import detailsEducation from "../utils/educationData.json";
 
 export const ExperienceEducation = () => {
+
+    const detailsExperience = [
+        {
+            name: 'Práctica Monte Verde IT Spa',
+            description: 'Desarrollador Web',
+            timeline: 'Enero 2024 - Febrero 2024',
+            logo: logoMVIT,
+            alt: 'MVIT'
+        },
+    ]
+
+    const detailsEducation = [
+        {
+            name: 'Universidad de Los Lagos',
+            description: 'Ingeniería Civil en Informática',
+            timeline: '2021 - Actualidad',
+            logo: logoUlagos,
+            alt: 'Ulagos'
+        },
+    ]
 
     return(
         <>

@@ -1,6 +1,6 @@
 [
     {
-        "frontPage": "https://sebaleivadev.vercel.app/assets/img/projects/Clinica_Ulagos_web.png",
+        "frontPage": "./src/assets/img/projects/Clinica_Ulagos_web.png",
         "alt": "ClinicaUlagosWeb",
         "title": "Clinica Ulagos Web",
         "description": "Desarrollo de un sistema integral de reservas para citas médicas, diseñado para facilitar la gestión tanto para clientes como para profesionales de la salud. El sistema permite a los pacientes registrarse, iniciar sesión, agendar, anular citas y acceder a su historial médico, mientras que los profesionales pueden gestionar (agregar, editar y anular) las citas.",
