@@ -176,9 +176,9 @@ export const Contact = () => {
           </form>
           <div className="contact-info flex flex-col p-10 w-[100%] justify-center h-[100%] ml-[20%] gap-y-20 max-lg:px-0 max-lg:justify-start max-lg:ml-0 max-lg:gap-y-10 max-lg:order-1">
             <h1 className=" text-snowy-mint-800 dark:text-white font-extrabold text-4xl max-md:text-3xl">Contacto</h1>
-            <a href="" className="text-snowy-mint-700 dark:text-white font-regular text-2xl max-lg:text-base flex flex-row items-center gap-x-6 hover:text-snowy-mint-950 hover:dark:text-primaryBlue transition duration-100 transform hover:scale-105"><SiGmail className="text-3xl max-lg:text-base"/> sebastianleiva010@gmail.com</a>
-            <a href="" className="text-snowy-mint-700 dark:text-white font-regular text-2xl max-lg:text-base flex flex-row items-center gap-x-6 hover:text-snowy-mint-950 hover:dark:text-primaryBlue transition duration-100 transform hover:scale-105"><FaLinkedin className="text-3xl max-lg:text-base"/> Sebastian Leiva Almonacid</a>
-            <a href="" className="text-snowy-mint-700 dark:text-white font-regular text-2xl max-lg:text-base flex flex-row items-center gap-x-6 hover:text-snowy-mint-950 hover:dark:text-primaryBlue transition duration-100 transform hover:scale-105"><FaGithub className="text-3xl max-lg:text-base"/> SebastianLeivaaa</a>
+            <a href="mailto:sebastianleiva010@gmail.com" target="_blank" className="text-snowy-mint-700 dark:text-white font-regular text-2xl max-lg:text-base flex flex-row items-center gap-x-6 hover:text-snowy-mint-950 hover:dark:text-primaryBlue transition duration-100 transform hover:scale-105"><SiGmail className="text-3xl max-lg:text-base"/> sebastianleiva010@gmail.com</a>
+            <a href="https://www.linkedin.com/in/sebastian-leiva-almonacid-658b05265/" target="_blank" className="text-snowy-mint-700 dark:text-white font-regular text-2xl max-lg:text-base flex flex-row items-center gap-x-6 hover:text-snowy-mint-950 hover:dark:text-primaryBlue transition duration-100 transform hover:scale-105"><FaLinkedin className="text-3xl max-lg:text-base"/> Sebastian Leiva Almonacid</a>
+            <a href="https://github.com/SebastianLeivaaa" target="_blank" className="text-snowy-mint-700 dark:text-white font-regular text-2xl max-lg:text-base flex flex-row items-center gap-x-6 hover:text-snowy-mint-950 hover:dark:text-primaryBlue transition duration-100 transform hover:scale-105"><FaGithub className="text-3xl max-lg:text-base"/> SebastianLeivaaa</a>
           </div>
         </div>
       </section>
