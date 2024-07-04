@@ -3,10 +3,16 @@ import { HiMiniArrowTopRightOnSquare } from "react-icons/hi2";
 import { FaGithub } from "react-icons/fa";
 
 export const DetailsProjects = ({frontPage, alt, title, description, technologies, repository, preview}) => {
+
+    const handleImageClick = () => {
+        if(preview){
+            window.open(preview, '_blank');
+        }
+      };
     return(
         <article className="flex flex-row shadow-gray-900 shadow-3xl text-textLight dark:text-white gap-x-2 rounded-xl max-lg:flex-col max-lg:gap-y-6 max-lg:p-20  max-lg:dark:bg-black-rock-950 max-lg:bg-snowy-mint-300 max-lg:dark:contrast-[95%] max-md:dark:contrast-[100%] max-md:p-0 max-md:contrast-[100%] max-md:bg-snowy-mint-100">
             <div className="flex items-center overflow-hidden w-[35%] h-auto rounded-xl max-lg:w-[100%] max-lg:justify-center">
-                <img src={frontPage} alt={alt} className="object-cover w-full h-[350px] max-md:w-[100%] max-md:h-[300px] max-lg:h-[350px] max-lg:rounded-xl" />
+                <img onClick={handleImageClick} src={frontPage} alt={alt} className={`object-cover w-full h-[350px] max-md:w-[100%] max-md:h-[300px] max-lg:h-[350px] max-lg:rounded-xl ${preview ? 'cursor-pointer' : ''}`} />
             </div>
             <div className="flex flex-col w-[65%] px-5 max-lg:w-[100%] max-lg:px-0">
                 <div className="flex flex-row gap-x-3 items-end relative max-lg:justify-center max-md:justify-start">

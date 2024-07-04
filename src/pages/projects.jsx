@@ -1,6 +1,7 @@
 import React from "react";
 import { NavBar } from "../components/navBar";
 import { DetailsProjects } from "../components/detailsProjects";
+import frontPageParkingUlagosWeb from "../assets/img/projects/Parking_Ulagos_web.png";
 import frontPageClinicaWeb from "../assets/img/projects/Clinica_Ulagos_web.png";
 import frontPageClinicaApp from "../assets/img/projects/Clinica_Ulagos_App.png";
 import frontPageRevisionesTecnicasWeb from "../assets/img/projects/Revisiones_Tecnicas_web.png";
@@ -21,6 +22,41 @@ import { PiBracketsCurlyBold } from "react-icons/pi";
 export const Projects = () => {
     
     const detailsProjects = [
+        {
+            frontPage: frontPageParkingUlagosWeb,
+            alt: 'ParkingUlagosWeb',
+            title: 'ParkingUlagosWeb',
+            description: 'Desarrollo de un sistema de reservas para un estacionamiento universitario que permite a los usuarios realizar y gestionar reservas de manera rápida mediante un mapa interactivo y códigos QR. Los usuarios pueden ver su historial y estadísticas de uso, mientras que los guardias pueden asignar espacios a visitantes y confirmar reservas. El sistema cuenta con seguridad avanzada, incluyendo encriptación de contraseñas, y una interfaz responsiva e intuitiva.',
+            technologies: [
+                {
+                    name: 'React',
+                    logo: iconReact,
+                    alt: 'react'
+                },
+                {
+                    name: 'JavaScript',
+                    logo: iconJavaScript,
+                    alt: 'javascript'
+                },
+                {
+                    name: 'TailwindCSS',
+                    logo: iconTailwind,
+                    alt: 'tailwindCSS'
+                },
+                {
+                    name: 'NodeJs',
+                    logo: iconNodeJS,
+                    alt: 'nodeJS'
+                },
+                {
+                    name: 'PostgreSQL',
+                    logo: iconPostgreSQL,
+                    alt: 'postgreSQL'
+                }
+            ],
+            repository: 'https://github.com/SebastianLeivaaa/SistemaEstacionamientosUlagos',
+            preview: 'https://estacionamientosulagos.vercel.app'
+        },
         {
             frontPage: frontPageClinicaWeb,
             alt: 'ClinicaUlagosWeb',
@@ -155,6 +191,7 @@ export const Projects = () => {
                             description={i.description}
                             technologies={i.technologies}
                             repository={i.repository}
+                            preview={i.preview}
                         />
                 ))}
                 </div>
