@@ -3,7 +3,7 @@ import nodemailer from 'nodemailer';
 
 const CLIENT_ID = "753573338206-m8fprndcmdokn0j4j69evqbl0ie88jng.apps.googleusercontent.com";
 const CLIENT_SECRET = "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";
-const REFRESH_TOKEN = "1//04escRFwyIvDCCgYIARAAGAQSNwF-L9Ir31pckDaom0tisBl_SPkE49uZGQwoEZYHMyvys05mLBbBfdIpN2VsEIsUM88JqhxcmFI";
+const REFRESH_TOKEN = "1//04ez36wZaqWUTCgYIARAAGAQSNwF-L9Irapra4Gm4vpqy14EKhUh26hlxWLeiNfUeRhFH9qSdI4fbNdvd2HRBa74OMejo8ulkWAE";
 const REDIRECT_URI = "https://developers.google.com/oauthplayground"; //DONT EDIT THIS
 const MY_EMAIL = "sebastianleiva010@gmail.com";
 
