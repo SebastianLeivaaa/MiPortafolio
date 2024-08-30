@@ -61,8 +61,8 @@ export const Projects = () => {
         },
         {
             frontPage: frontPageProgramasUlagos,
-            alt: 'Programas de Ingeniería Ulagos',
-            title: 'Programas de Ingeniería Ulagos',
+            alt: 'Programas de Ingenierías Ulagos',
+            title: 'Programas de Ingenierías Ulagos',
             description: 'Desarrollo una aplicación web intuitiva que permite visualizar las mallas curriculares de las carreras de ingeniería de la Universidad de Los Lagos. La plataforma facilita la exploración de las previaturas de cada asignatura, destacando visualmente las conexiones entre cursos. Al seleccionar un ramo, se muestran tanto sus previaturas como los cursos para los cuales es previatura, ofreciendo una comprensión clara y dinámica de las relaciones académicas entre las materias.',
             technologies: [
                 {
