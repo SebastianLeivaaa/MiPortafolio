@@ -6,16 +6,18 @@ import frontPageClinicaWeb from "../assets/img/projects/Clinica_Ulagos_web.png";
 import frontPageClinicaApp from "../assets/img/projects/Clinica_Ulagos_App.png";
 import frontPageRevisionesTecnicasWeb from "../assets/img/projects/Revisiones_Tecnicas_web.png";
 import frontPageRevisionesTecnicasApp from "../assets/img/projects/Revisiones_Tecnicas_App.png";
+import frontPageProgramasUlagos from "../assets/img/projects/Programas_Ulagos.png";
 import iconJavaScript from "../assets/img/technologies/iconJavaScript.png";
 import iconMySQL from "../assets/img/technologies/iconMySQL.png";
 import iconDart from "../assets/img/technologies/iconDart.png";
 import iconFirebase from "../assets/img/technologies/iconFirebase.png";
 import iconReact from "../assets/img/technologies/iconReact.png";
-
+import iconNextJS from "../assets/img/technologies/iconNextJS.png";
 import iconFlutter from "../assets/img/technologies/iconFlutter.png";
 import iconPostgreSQL from "../assets/img/technologies/iconPostgreSQL.png";
 import iconTailwind from "../assets/img/technologies/iconTailwind.png";
 import iconNodeJS from "../assets/img/technologies/iconNodeJs.png";
+import iconTypeScript from "../assets/img/technologies/iconTypeScript.png";
 import { PiBracketsCurlyBold } from "react-icons/pi";
 
 
@@ -58,6 +60,36 @@ export const Projects = () => {
             preview: 'https://estacionamientosulagos.vercel.app'
         },
         {
+            frontPage: frontPageProgramasUlagos,
+            alt: 'Programas de Ingeniería Ulagos',
+            title: 'Programas de Ingeniería Ulagos',
+            description: 'Desarrollo una aplicación web intuitiva que permite visualizar las mallas curriculares de las carreras de ingeniería de la Universidad de Los Lagos. La plataforma facilita la exploración de las previaturas de cada asignatura, destacando visualmente las conexiones entre cursos. Al seleccionar un ramo, se muestran tanto sus previaturas como los cursos para los cuales es previatura, ofreciendo una comprensión clara y dinámica de las relaciones académicas entre las materias.',
+            technologies: [
+                {
+                    name: 'Next.js',
+                    logo: iconNextJS,
+                    alt: 'Next.js'
+                },
+                {
+                    name: 'TypeScript',
+                    logo: iconTypeScript,
+                    alt: 'TypeScript'
+                },
+                {
+                    name: 'TailwindCSS',
+                    logo: iconTailwind,
+                    alt: 'tailwindCSS'
+                },
+                {
+                    name: 'React',
+                    logo: iconReact,
+                    alt: 'react'
+                }
+            ],
+            repository: 'https://github.com/SebastianLeivaaa/mallas-curriculares-ula',
+            preview: 'https://mallas-curriculares-ula.vercel.app/'
+        },
+        {
             frontPage: frontPageClinicaWeb,
             alt: 'ClinicaUlagosWeb',
             title: 'Clinica Ulagos Web',
@@ -74,19 +106,14 @@ export const Projects = () => {
                     alt: 'javascript'
                 },
                 {
+                    name: 'React',
+                    logo: iconReact,
+                    alt: 'react'
+                },
+                {
                     name: 'TailwindCSS',
                     logo: iconTailwind,
                     alt: 'tailwindCSS'
-                },
-                {
-                    name: 'NodeJs',
-                    logo: iconNodeJS,
-                    alt: 'nodeJS'
-                },
-                {
-                    name: 'PostgreSQL',
-                    logo: iconPostgreSQL,
-                    alt: 'postgreSQL'
                 }
             ],
             repository: 'https://github.com/SebastianLeivaaa/ClinicaUlagos'
