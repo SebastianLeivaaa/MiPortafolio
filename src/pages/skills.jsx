@@ -13,6 +13,8 @@ import iconDart from "../assets/img/technologies/iconDart.png";
 import iconMySQL from "../assets/img/technologies/iconMySQL.png";
 import iconEjs from "../assets/img/technologies/iconEjs.png";
 import iconFirebase from "../assets/img/technologies/iconFirebase.png";
+import iconNextJS from "../assets/img/technologies/iconNextJS.png";
+import iconTypeScript from "../assets/img/technologies/iconTypeScript.png";
 import iconFlutter from "../assets/img/technologies/iconFlutter.png";
 import iconPostgreSQL from "../assets/img/technologies/iconPostgreSQL.png";
 import iconTailwind from "../assets/img/technologies/iconTailwind.png";
@@ -28,12 +30,20 @@ export const Skills = () => {
             logo: iconJavaScript
         },
         {
-            name: 'Java',
-            logo: iconJava
+            name: 'TypeScript',
+            logo: iconTypeScript
+        },
+        {
+            name: 'Next.js',
+            logo: iconNextJS
         },
         {
             name: 'React',
             logo: iconReact
+        },
+        {
+            name: 'Java',
+            logo: iconJava
         },
         {
             name: 'Node.js',

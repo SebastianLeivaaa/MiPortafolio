@@ -15,7 +15,7 @@ export const DetailsProjects = ({frontPage, alt, title, description, technologie
                 <img onClick={handleImageClick} src={frontPage} alt={alt} className={`object-cover w-full h-[350px] max-md:w-[100%] max-md:h-[300px] max-lg:h-[350px] max-lg:rounded-xl ${preview ? 'cursor-pointer' : ''}`} />
             </div>
             <div className="flex flex-col w-[65%] px-5 max-lg:w-[100%] max-lg:px-0">
-                <div className="flex flex-row gap-x-3 items-end relative max-lg:justify-center max-md:justify-start">
+                <div className="flex flex-row gap-x-3 items-center relative max-lg:justify-center max-md:justify-start">
                     <h1 className="font-extrabold dark:text-black-rock-400 text-snowy-mint-900 text-4xl max-md:text-2xl">{title}</h1>
                     <div className="group relative flex items-center">
                         {!preview ? (
