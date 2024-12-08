@@ -12,7 +12,7 @@ export const ExperienceEducation = () => {
     const detailsExperience = [
         {
             name: 'Práctica Monte Verde IT Spa',
-            description: 'Desarrollador Web',
+            description: 'Desarrollador de Software',
             timeline: 'Enero 2024 - Febrero 2024',
             logo: logoMVIT,
             alt: 'MVIT'

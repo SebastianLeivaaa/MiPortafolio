@@ -1,11 +1,13 @@
 import { google } from 'googleapis';
 import nodemailer from 'nodemailer';
 
+
 const CLIENT_ID = "753573338206-m8fprndcmdokn0j4j69evqbl0ie88jng.apps.googleusercontent.com";
 const CLIENT_SECRET = "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";
-const REFRESH_TOKEN = "1//04Fp83fiQUpHSCgYIARAAGAQSNwF-L9Irlesqb_-NpQZsBfUQ03ROwSB5fW6yYjBd8DFGST6_eYvlzh6rtzAVB4gLi-KwT7xjoVI";
-const REDIRECT_URI = "https://developers.google.com/oauthplayground"; //DONT EDIT THIS
+const REFRESH_TOKEN = "1//04iLz-aXtpTW0CgYIARAAGAQSNwF-L9Irq2L6st-WHNHofSafXYKy3xbtRERBGtvkpAxHram3haWESH_9jjasdxPBxRkV1pcbdDI";
+const REDIRECT_URI = "https://developers.google.com/oauthplayground";
 const MY_EMAIL = "sebastianleiva010@gmail.com";
+
 
 
 const oAuth2Client = new google.auth.OAuth2(

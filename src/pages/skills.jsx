@@ -5,7 +5,7 @@ import { FaUserFriends } from "react-icons/fa";
 import { FaGlobeAmericas } from "react-icons/fa";
 import iconHtml from "../assets/img/technologies/iconHtml.png";
 import iconJavaScript from "../assets/img/technologies/iconJavaScript.png";
-import iconJava from "../assets/img/technologies/iconJava.png";
+import iconC from "../assets/img/technologies/iconC.png";
 import iconGit from "../assets/img/technologies/iconGit.png";
 import iconCss from "../assets/img/technologies/iconCss.png";
 import iconReact from "../assets/img/technologies/iconReact.png";
@@ -42,8 +42,8 @@ export const Skills = () => {
             logo: iconReact
         },
         {
-            name: 'Java',
-            logo: iconJava
+            name: 'C',
+            logo: iconC
         },
         {
             name: 'Node.js',

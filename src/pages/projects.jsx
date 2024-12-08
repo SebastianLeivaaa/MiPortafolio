@@ -89,6 +89,7 @@ export const Projects = () => {
             repository: 'https://github.com/SebastianLeivaaa/mallas-curriculares-ula',
             preview: 'https://mallas-curriculares-ula.vercel.app/'
         },
+        /*
         {
             frontPage: frontPageClinicaWeb,
             alt: 'ClinicaUlagosWeb',
@@ -117,7 +118,7 @@ export const Projects = () => {
                 }
             ],
             repository: 'https://github.com/SebastianLeivaaa/ClinicaUlagos'
-        },
+        },*/
         {
             frontPage: frontPageClinicaApp,
             alt: 'ClinicaUlagosApp',
