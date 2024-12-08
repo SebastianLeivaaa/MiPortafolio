@@ -8,7 +8,7 @@ const app = express();
 app.use(express.json());
 const port = 3001;
 app.use(cors());
-const SENDER_EMAIL_ID = "sebastianleiva010@gmail.com";
+const SENDER_EMAIL_ID = process.env.MY_EMAIL;
 
 app.post("/send-email", async (req, res) => {
   

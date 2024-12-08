@@ -2,11 +2,11 @@ import { google } from 'googleapis';
 import nodemailer from 'nodemailer';
 
 
-const CLIENT_ID = "753573338206-m8fprndcmdokn0j4j69evqbl0ie88jng.apps.googleusercontent.com";
-const CLIENT_SECRET = "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";
-const REFRESH_TOKEN = "1//04iLz-aXtpTW0CgYIARAAGAQSNwF-L9Irq2L6st-WHNHofSafXYKy3xbtRERBGtvkpAxHram3haWESH_9jjasdxPBxRkV1pcbdDI";
-const REDIRECT_URI = "https://developers.google.com/oauthplayground"; //DONT EDIT THIS
-const MY_EMAIL = "sebastianleiva010@gmail.com";
+const CLIENT_ID = process.env.CLIENT_ID;
+const CLIENT_SECRET = process.env.CLIENT_SECRET;
+const REFRESH_TOKEN = process.env.REFRESH_TOKEN;
+const REDIRECT_URI = process.env.REDIRECT_URI; //DONT EDIT THIS
+const MY_EMAIL = process.env.MY_EMAIL;
 
 
 
