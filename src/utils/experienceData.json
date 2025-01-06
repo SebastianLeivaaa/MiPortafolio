@@ -1,6 +1,13 @@
 [
     {
-        "name": "Práctica Monte Verde IT Spa",
+        "name": "Prácticante Nagu Corporation",
+        "description": "Desarrollador de Software y Tecnología",
+        "timeline": "Enero 2025 - Actualidad",
+        "logo": "./src/assets/img/nagu_corporation_logo.png",
+        "alt": "MVIT"
+    },
+    {
+        "name": "Prácticante Monte Verde IT Spa",
         "description": "Desarrollador Web",
         "timeline": "Enero 2024 - Febrero 2024",
         "logo": "./src/assets/img/MVIT-5.png",

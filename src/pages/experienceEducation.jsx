@@ -6,18 +6,10 @@ import logoUlagos from '../assets/img/Ulagos.png';
 import { Footer } from "../components/footer";
 import { FaBriefcase } from "react-icons/fa";
 import { HiAcademicCap } from "react-icons/hi2";
+import detailsExperience from "../utils/experienceData.json"
 
 export const ExperienceEducation = () => {
 
-    const detailsExperience = [
-        {
-            name: 'Práctica Monte Verde IT Spa',
-            description: 'Desarrollador de Software',
-            timeline: 'Enero 2024 - Febrero 2024',
-            logo: logoMVIT,
-            alt: 'MVIT'
-        },
-    ]
 
     const detailsEducation = [
         {

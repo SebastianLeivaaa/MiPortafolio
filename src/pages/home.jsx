@@ -33,7 +33,7 @@ export const Home = () => {
                         </div>
                         <div className="max-lg:mt-10 max-lg:px-10 max-md:px-0">
                             <p className="text-textLight dark:text-white dark:opacity-75 text-lg justify-start break-words max-md:text-base max-lg:text-lg">
-                                Soy estudiante de cuarto año de la carrera de Ingeniería Civil en Informática en la Universidad de Los Lagos, Puerto Montt.
+                                Soy estudiante de quinto año de la carrera de Ingeniería Civil en Informática en la Universidad de Los Lagos, Puerto Montt.
                             </p>
                             <p className="text-textLight dark:text-white dark:opacity-75 text-lg justify-start break-words mt-2 max-md:text-base max-lg:text-lg">
                                 En constante búsqueda de conocimientos y habilidades, me encuentro actualmente inmerso en el proceso de convertirme en un desarrollador web y de aplicaciones móviles, 

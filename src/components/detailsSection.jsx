@@ -17,8 +17,8 @@ export const DetailsSection = ({ name, description, timeline, logo, alt, index }
                 <div className="w-1 bg-snowy-mint-600 dark:bg-black-rock-400 h-[100%]"></div>
                 <div className="absolute w-5 h-5 max-md:w-4 max-md:h-4 rounded-full bg-snowy-mint-600 dark:bg-black-rock-400 z-10 text-center"></div>
             </div>
-            <div className={`flex items-center ${index % 2 === 0 ? 'order-3' : 'order-1'} w-full max-md:hidden h-auto`}>
-                <img src={logo} alt={alt} className="object-cover" />
+            <div className={`flex items-center ${index % 2 === 0 ? 'order-3' : 'order-1'} min-w-full max-md:hidden h-auto`}>
+                <img src={logo} alt={alt} className="object-cover max-w-[352.5px]" /> 
             </div>
         </article>
     );
